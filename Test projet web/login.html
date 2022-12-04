@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+  <header>
+    <div class="logo">
+		<img src="logo.jpg" width="512" height="512" alt=""/> 
+		<h1>Change.tn<div class="slogan">Sign a petition for a better world !</div>     </h1>
+
+	  </div>
+ 
+   <ul class="nav nav-pills">
+	    <li class="nav-item"> <a class="nav-link active" href="login.html">Se connecter</a> </li>
+	    <li class="nav-item"> <a class="nav-link" href="sign up.html">S'inscrire</a> </li>
+	    <li class="nav-item"> <a class="nav-link" href="#"></a> </li>
+	    <li class="nav-item"> <a class="nav-link disabled" href="#"></a> </li>
+    </ul>
+  </header>
+	   
+	  <br>
+  <form action="connexion.php"  method="post">
+	    <div class="form-group">
+	      <label for="mail">Email address</label>
+	      <input type="email" class="form-control" id="mail" name="mail" placeholder="Enter email">
+	      <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+	    <div class="form-group">
+	      <label for="mdp">Password</label>
+	      <input type="password" class="form-control" id="mdp" name="mdp" placeholder="Password">
+    </div>
+	   <!--  <div class="form-check">
+	      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+	      <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+    </div>
+	    <button type="submit" id="submit" name="submit" value="Submit" class="btn btn-primary">Se connecter</button>
+	 
+  </form>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>

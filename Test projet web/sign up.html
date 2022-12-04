@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<header>
+	<div class="logo">
+		<img src="logo.jpg" width="512" height="512" alt=""/> 
+		<h1>Change.tn<div class="slogan">Sign a petition for a better world !</div>     </h1>
+
+	  </div>
+   <ul class="nav nav-pills">
+	    <li class="nav-item"> <a class="nav-link" href="login.html">Se connecter</a> </li>
+	    <li class="nav-item"> <a class="nav-link active" href="sign up.html">S'inscrire</a> </li>
+	    <li class="nav-item"> <a class="nav-link" href="#"></a> </li>
+	    <li class="nav-item"> <a class="nav-link disabled" href="#"></a> </li>
+    </ul>
+  </header>
+	   
+	  <br>
+  <form action="signup.php"  method="post" >
+	  <div class="form-group">
+	   <label for="nom">Nom*</label>
+		  <br>
+	<input name="nom" id="nom" type="text">
+		  <br>
+		  <label for="prenom">Prénom*</label>
+		  <br>
+	  <input id="prenom" name="prenom" type="text">
+		  <br>
+		  <label for="cin">CIN*</label>
+		  <br>
+	  <input id="cin" name="cin" type="text">
+		  <br>
+		  <label for="mail">E-mail*</label>
+		  <br>
+	 <input id="mail" name="mail" type="email">
+		  <br>
+		  <label for="mdp">Mot de passe*</label>
+		  <br>
+	  <input type="password" id="mdp" name="mdp">
+		  <br>
+		  <label for="">Confirmer mot de passe*</label>
+		  <br>
+	  <input type="password">
+		  <br>
+		  <label for="radio">Vous etes ?*</label> <br>
+		  <input type="radio" name="radio" value="etudiant">Etudiant
+		  <br>
+          <input type="radio" name="radio" value="enseignant">Enseignant
+	  </div>
+	  <button type="submit" id="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
+	  <p style="color:red">les champs marqués par * sont obligatoires </p>
+  </form>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
